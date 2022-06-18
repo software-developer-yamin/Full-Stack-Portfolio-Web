@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/client": "^3.3.2",
+    "@sanity/image-url": "^1.0.1",
+    "framer-motion": "^6.3.11",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-reveal": "^1.2.2",
+    "react-tooltip": "^4.2.21",
+    "sass": "^1.52.3"
   },
   "devDependencies": {
     "eslint": "8.17.0",
