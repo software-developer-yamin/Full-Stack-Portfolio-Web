@@ -31,24 +31,35 @@ const Header = () => (
 
         <div className="tag-cmp app__flex">
           <div className="iconContainer">
-            <img
+            <Image
+            width={40}
+            height={40}
               src="/assets/mern-stack-icon.png"
               alt="mern-stack-icon"
-              className="tag-cmp-icon"
+              objectFit="contain"
             />
             <p className="p-text p-title">
               MERN Stack Developer With NextJS & React Native
             </p>
           </div>
         </div>
-        <a href="/assets/Yamin Resume.pdf" download={"Yamin Resume.pdf"} className="tag-cmp app__flex text-style-none">
+        <a
+          href="/assets/Yamin Resume.pdf"
+          download={"Yamin Resume.pdf"}
+          className="tag-cmp app__flex text-style-none"
+        >
           <div className="iconContainer">
-          <img
+            <Image
               src="/assets/hireme.jpg"
               alt="hireme-icon"
-              style={{ width: "30px", height: "30px", objectFit: "contain", paddingRight: "5px" }}
+              objectFit="contain"
+              width={30}
+              height={30}
+              style={{
+                paddingRight: "5px",
+              }}
             />
-            <p className="p-text p-title">Hire me</p>
+            <p className="p-text p-title">download resume</p>
           </div>
         </a>
       </div>

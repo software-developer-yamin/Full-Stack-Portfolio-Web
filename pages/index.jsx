@@ -7,7 +7,7 @@ export default function Home() {
     <div className="app">
       <Head>
         <title>My Portfolio</title>
-        <link rel="icon" href="👋" className="yamin-logo" />
+        <link rel="icon" href="/assets/portfolio-icon.png" className="yamin-logo" />
       </Head>
       <Navbar />
       <Header />
