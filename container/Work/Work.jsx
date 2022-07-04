@@ -49,6 +49,7 @@ const Work = () => {
           "Mobile App",
           "React JS",
           "React Native",
+          "MERN STACK",
           "All",
         ].map((item, index) => (
           <div
@@ -72,7 +73,12 @@ const Work = () => {
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
               <div className="workImg">
-                <Image src={`${urlFor(work.imgUrl)}`} alt={work.name} layout="fill" objectFit="cover"   />
+                <Image
+                  src={`${urlFor(work.imgUrl)}`}
+                  alt={work.name}
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
 
               <motion.div

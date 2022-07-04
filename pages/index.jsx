@@ -19,3 +19,13 @@ export default function Home() {
     </div>
   );
 }
+
+export const getStaticProps = async (ctx) => {
+
+
+  return {
+    props:{
+      data:null
+    }
+  }
+}
