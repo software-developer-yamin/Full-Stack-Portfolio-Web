@@ -44,8 +44,8 @@ const Header = () => (
           </div>
         </div>
         <a
-          href="/assets/Yamin Resume.pdf"
-          download={"Yamin Resume.pdf"}
+          href="/assets/Yamin's Resume.pdf"
+          download={"Yamin's Resume.pdf"}
           className="tag-cmp app__flex text-style-none"
         >
           <div className="iconContainer">
